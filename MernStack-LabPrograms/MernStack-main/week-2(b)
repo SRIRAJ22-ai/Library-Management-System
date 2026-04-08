@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Embedding Audio and Video</title>
+</head>
+<body>
+ <h1>Embedding Audio and Video in HTML</h1>
+ <h2>Audio Example</h2>
+ <audio controls>
+ <source src="sample-audio.mp3" type="audio/mpeg">
+ Your browser does not support the audio element.
+ </audio>
+ <h2>Video Example</h2>
+ <video width="400" height="300" controls>
+ <source src="sample-video.mp4" type="video/mp4">
+ Your browser does not support the video element.
+ </video>
+</body>
+</html>

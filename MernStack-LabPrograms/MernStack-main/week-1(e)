@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<body style="text-align:center">
+<form>
+ Name: <input type="text"><br><br>
+ Age: <input type="number"><br><br>
+</form>
+<form>
+ Password: <input type="password"><br><br>
+ DOB: <input type="date"><br><br>
+</form>
+<form>
+ Email: <input type="text"><br><br>
+ <button type="submit">Submit</button>
+</form>
+</body>
+</html>

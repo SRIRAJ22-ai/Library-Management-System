@@ -1,0 +1,17 @@
+function Child(props) {
+ return (
+ <div>
+ <h2>Student Name: {props.name}</h2>
+ <h3>Course: {props.course}</h3>
+ </div>
+ );
+}
+function App() {
+ return (
+ <div>
+ <h1>Sharing Data Between Components</h1>
+ <Child name="Manikanta" course="ReactJS" />
+ </div>
+ );
+}
+export default App; 

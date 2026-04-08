@@ -1,0 +1,27 @@
+let studentId: number = 101;
+let studentName: string = "Manikanta";
+let isPresent: boolean = true;
+
+let marks: number[] = [85, 90, 88];
+let studentInfo: [number, string] = [101, "Kalyan"];
+
+let valueAny: any = "Hello";
+valueAny = 123;
+
+let valueUnknown: unknown = "TypeScript";
+
+let resultVoid: void;
+resultVoid = undefined;
+
+let emptyValue: null = null;
+let notAssigned: undefined = undefined;
+
+function throwError(message: string): never {
+    throw new Error(message);
+}
+
+console.log("ID:", studentId);
+console.log("Name:", studentName);
+console.log("Present:", isPresent);
+console.log("Marks:", marks);
+console.log("Student Info:", studentInfo);

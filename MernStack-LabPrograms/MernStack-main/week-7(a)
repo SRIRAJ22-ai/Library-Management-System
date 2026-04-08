@@ -1,0 +1,29 @@
+const express = require('express');
+const app = express();
+const PORT = 3000;
+// Basic Route
+app.get('/', (req, res) => {
+ res.send('Welcome to ExpressJS Routing');
+});
+// Route Parameter
+app.get('/student/:id', (req, res) => {
+ res.send(`Student ID: ${req.params.id}`);
+});
+// Multiple Route Parameters
+app.get('/course/:name/:duration', (req, res) => {
+ const { name, duration } = req.params;
+ res.send(`Course: ${name}, Duration: ${duration}`);
+});
+// Query Parameters
+app.get('/search', (req, res) => {
+ const { subject, level } = req.query;
+ res.send(`Subject: ${subject}, Level: ${level}`);
+});
+// URL Building
+app.get('/build-url', (req, res) => {
+ const url = `/student/101?role=monitor`;
+ res.send(`Generated URL: ${url}`);
+});
+app.listen(PORT, () => {
+ console.log(`Server running on http://localhost:${PORT}`);
+}); 

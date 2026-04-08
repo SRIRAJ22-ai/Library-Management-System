@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Objects Demo</title>
+</head>
+<body>
+
+<h3>JavaScript Pre-defined Objects</h3>
+<p id="result"></p>
+
+<script>
+    // Window Object
+    window.alert("Welcome to JavaScript Objects Program");
+    let name = window.prompt("Enter your name:");
+
+    // String Object
+    let upperName = name.toUpperCase();
+    let lengthOfName = name.length;
+
+    // Math Object
+    let number = 25;
+    let sqrtValue = Math.sqrt(number);
+    let powerValue = Math.pow(5, 2);
+
+    // Document Object
+    document.getElementById("result").innerHTML =
+        "Name: " + name + "<br>" +
+        "Uppercase Name: " + upperName + "<br>" +
+        "Length of Name: " + lengthOfName + "<br>" +
+        "Square Root of 25: " + sqrtValue + "<br>" +
+        "5 Power 2: " + powerValue;
+</script>
+
+</body>
+</html>

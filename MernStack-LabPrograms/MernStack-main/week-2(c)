@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>CSS Color Representation - Aditya University</title>
+ <style>
+ body {
+ font-family: Arial, sans-serif;
+ }
+ /* Color Name */
+ .color-name {
+ color: blue;
+ }
+ /* Hexadecimal Color */
+ .hex-color {
+ color: #8B0000;
+ }
+ /* RGB Color */
+ .rgb-color {
+ color: rgb(0, 128, 0);
+ }
+ /* RGBA Color */
+ .rgba-color {
+ color: rgba(255, 69, 0, 0.7);
+ }
+ /* HSL Color */
+ .hsl-color {
+ color: hsl(240, 100%, 40%);
+ }
+ /* HSLA Color */
+ .hsla-color {
+ color: hsla(300, 100%, 30%, 0.8);
+ }
+ </style>
+</head>
+<body>
+ <h1 class="color-name">Aditya University</h1>
+ <p class="hex-color">
+ Department of Artificial Intelligence and Machine Learning
+ </p>
+ <p class="rgb-color">
+ AIML focuses on intelligent systems, data analysis, and automation.
+ </p>
+ <p class="rgba-color">
+ Artificial Intelligence enables machines to mimic human intelligence.
+ </p>
+ <p class="hsl-color">
+ Machine Learning allows systems to learn from data and improve over time.
+ </p>
+ <p class="hsla-color">
+ Aditya University AIML prepares students for future technologies.
+ </p>
+</body>
+</html> 

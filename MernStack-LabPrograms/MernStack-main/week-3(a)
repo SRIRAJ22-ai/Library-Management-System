@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Selector Forms</title>
+
+<style>
+
+/* SIMPLE SELECTORS */
+
+//Element Selector
+p {
+    color: blue;
+}
+
+//ID Selector
+#main-title {
+    color: darkred;
+    text-align: center;
+}
+
+//Class Selector
+.highlight {
+    background-color: lightyellow;
+}
+
+//Group Selector
+h2, h3 {
+    color: green;
+}
+
+//Universal Selector
+* {
+    font-family: Arial, sans-serif;
+}
+
+
+/* COMBINATOR SELECTORS */
+
+//Descendant Selector(one inside another)
+div p {
+    font-style: italic;
+}
+
+//Child Selector
+div > span {
+    color: purple;
+    font-weight: bold;
+}
+
+//Adjacent Sibling Selector
+h3 + p {
+    color: orange;
+}
+
+//General Sibling Selector
+h3 ~ p {
+    background-color: #e0e0e0;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1 id="main-title">CSS Selectors Example</h1>
+
+<h2>Simple Selectors</h2>
+<p>This is a paragraph</p>
+<p class="highlight">This is highlighted text</p>
+
+<div>
+    <p>Paragraph inside div</p>
+    <span>Span inside div</span>
+</div>
+
+<h3>Sibling Selectors</h3>
+<p>Adjacent paragraph</p>
+<p>Another paragraph</p>
+
+</body>
+</html>
